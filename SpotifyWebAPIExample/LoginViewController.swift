@@ -18,7 +18,7 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        SpotifyAPI.v1.auth.configuration = AuthorizationServiceConfiguration(clientId: "29aae152aa944a2391479a93fdbbc3af", clientSecret: "ede6558c0d9d4abe81913f2cfac2404f", redirectUri: "socialmusic://", scopes: [Scopes.user_read_private, Scopes.user_read_email, Scopes.user_follow_read, Scopes.user_top_read, Scopes.user_library_read])
+        SpotifyAPI.v1.auth.configuration = AuthorizationServiceConfiguration(clientId: "{YOUR CLIENT ID}", clientSecret: "{YOUR CLIENT SECRET}", redirectUri: "{YOUR REDIRECT URI}", scopes: [Scopes.user_read_private, Scopes.user_read_email, Scopes.user_follow_read, Scopes.user_top_read, Scopes.user_library_read])
 
         self.checkSession()
     }
