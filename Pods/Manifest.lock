@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.9.1)
+  - SDWebImage (5.5.2):
+    - SDWebImage/Core (= 5.5.2)
+  - SDWebImage/Core (5.5.2)
+  - SpotifyWebAPI (1.5.2):
+    - Alamofire
+
+DEPENDENCIES:
+  - SDWebImage
+  - SpotifyWebAPI (from `https://github.com/Rilissimo1/SpotifyWebAPI`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  SpotifyWebAPI:
+    :git: https://github.com/Rilissimo1/SpotifyWebAPI
+
+CHECKOUT OPTIONS:
+  SpotifyWebAPI:
+    :commit: b5f4b2fababe11df328ebacf497b671f8596d6ae
+    :git: https://github.com/Rilissimo1/SpotifyWebAPI
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
+  SpotifyWebAPI: 54b9f2f60bf285415f349f2a5a69bed0f8f598b5
+
+PODFILE CHECKSUM: f575470a9d50e33d30bf2b0bd814649089350ef7
+
+COCOAPODS: 1.8.4
